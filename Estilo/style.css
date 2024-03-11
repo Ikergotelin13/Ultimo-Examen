@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh;
+    position: relative; 
+}
+
+#examInfo {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    color: #ffc836;
+    border: 2px solid #ffc836;
+    background-color: #002858;
+    padding: 10px;
+    border-radius: 40px;
+    z-index: 1000; 
+}
+
+#sidebar {
+    width: 25%;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow-y: auto;
+    background-color: rgb(225, 236, 247);
+}
+
+h2 {
+    text-align: center;
+    color: #002858;
+    font-size: 40px;
+}
+
+#map {
+    flex: 1;
+    height: 100%;
+    width: 80%;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    cursor: pointer;
+    background-color: #002858; 
+    padding: 10px;
+    border-radius: 5px;
+    color: #ffc836; 
+    position: relative; 
+}
+
+
+li:hover {
+    background-color: #FFD700;
+    color: #002858; /* Puedes ajustar este color según tus preferencias */
+}
+
+.button-container {
+    position:relative;
+    top: 0;
+    right: 0;
+    
+}
+
+.button {
+    margin-right: 5px;
+    border-radius: 40px;
+    background-color: #002858;
+    border: #ffc836;
+    color: #ffc836;
+}
+
+.button:hover{
+    background-color: #ffc836;
+    border: #002858;
+    color: #002858;
+}
+
+#map-popup {
+    background-color: #ffc836;
+    color: #002858;
+    padding: 10px;
+    border: 2px solid #002858;
+    border-radius: 5px;
+}
+
+
+
